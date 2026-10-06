@@ -13,7 +13,7 @@ import java.util.*;
 // This class gets the weather from the AccuWeather API
 public class WeatherService {
     // The key for the AccuWeather API
-    private static final String API_KEY = "ADD YOUR API HERE";
+    private static final String API_KEY = System.gentenc ("ACCUWEATHER_API_KEY");
     // First link is to search a city and get its code, second one is for the 5 day forecast
     private static final String LOCATION_URL = "https://dataservice.accuweather.com/locations/v1/cities/search?q=";
     private static final String FORECAST_URL = "https://dataservice.accuweather.com/forecasts/v1/daily/5day/";
